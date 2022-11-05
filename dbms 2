@@ -1,0 +1,19 @@
+create table student14 (s_no number (5),s_name varchar (10),s_school varchar (10),s_hobby varchar (20),s_std number (10),s_gender varchar (10));
+
+insert into student14 values(1,'piyush','sanklp','cricket',12,'male');
+insert into student14 values(2,'parth','sanklp','cricket',12,'male');
+insert into student14 values(3,'heer','sanklp','cricket',12,'male');
+insert into student14 values(4,'neel','sanklp','cricket',12,'male');
+insert into student14 values(5,'prem','sanklp','cricket',12,'male');
+insert into student14 values(6,'mayur','sanklp','cricket',12,'male');
+insert into student14 values(7,'malav','sanklp','cricket',12,'male');
+insert into student14 values(8,'avi','sanklp','cricket',12,'male');
+insert into student14 values(9,'kavi','sanklp','cricket',12,'male');
+insert into student14 values(10,'akshit','sanklp','cricket',12,'male');
+select*from student14;
+select s_name from student14;
+select s_name,s_school from student14;
+select s_name from student14 where s_school='sanklp';
+select s_name from student14 where s_name like 'm%';
+select s_name from student14 where s_name like 'a%' or s_name like 'e%' or s_name like 'i%' or s_name like 'o%' or s_name like 'u%';
+select*from student14 order by s_name;
